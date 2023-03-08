@@ -104,7 +104,7 @@ importdata(req.files,req,res,next)
 })
 
 app.get('/',(req,res)=>{
-  res.render('index.ejs')
+  res.render('index')
 })
 
 
